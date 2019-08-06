@@ -2997,7 +2997,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 60.75
+    m_Start: 95.375
     m_ClipIn: 0
     m_Asset: {fileID: -6898987300918111635}
     m_Duration: 9.416666666666666
@@ -3063,7 +3063,7 @@ MonoBehaviour:
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
     m_PostExtrapolationTime: Infinity
-    m_PreExtrapolationTime: 60.75
+    m_PreExtrapolationTime: 95.375
     m_DisplayName: Intro Shot 10
   m_Markers:
     m_Objects: []
@@ -3146,7 +3146,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 60.458333333333336
+    m_Start: 88.625
     m_ClipIn: 60.458333333333336
     m_Asset: {fileID: -8923356180658975120}
     m_Duration: 4.181666666666672
@@ -3212,7 +3212,7 @@ MonoBehaviour:
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
     m_PostExtrapolationTime: Infinity
-    m_PreExtrapolationTime: 60.458333333333336
+    m_PreExtrapolationTime: 88.625
     m_DisplayName: UPDATED CAT RIGGED model 15
   m_Markers:
     m_Objects: []
