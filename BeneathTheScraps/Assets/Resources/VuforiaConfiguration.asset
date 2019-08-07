@@ -13,15 +13,24 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
+<<<<<<< HEAD
     vuforiaLicenseKey: AcN03e//////AAABmbDSBXS7WUmEmTDh12dTwCsS32TYU9yqooymacVlM782SSr7getLAOQFBAVccE8ugGd6v/vgcw95wg2rJZiRg8lndwFcd46mh3nbmbd2ppdjchCFySiK6Y//gcvOVGowAioT9N40bJhEsNOd4fc9BkfHNZlHF21OvcupXU/LXmy2vonF2xRh4ggUwDPxpg1cDD+GGfjdcOcV0iRSH5CFTugtj7bm26uH5VDhaJE5mpXeh5cPMy1q4REsxAbf7tIXBiaqTWuE7FjkfEbWDZQa0jpyiysm/WtoPSfIAaSzxsCgsTU+1UCfV48zh585smLc+4Fr0jZBLEHmyAti1uBZ0AqF9z7QGyrUID+9FCTLlP1f
     ufoLicenseKey: QVhiM0Y1Ly8vLy8vQUFBQUtPbnFIeHJFSGs1N3VrMlg4U050eVBzK2pkOFZxMDhrazlwYjBsYS9aZUIxQlV1ckZWcWt0ZllSQWpnT2tIRlY2VzdOMDRTRjNYRUhmbTF5L1BnYlB4eWdHWEF6RUNheXowc3dyNVNYa2ozdERuRjhka1FpOHRscHdkMDcrcEJEY1FjTjNJcUM1bEgwOTYzQkdZdjRsQStRb0hSQU9nRGthelp5TlY0WHVwWU9EaE05NWw5bXAzbnBDMjM5MWZBWXBFdEdiL2loTDNab3N4b25ZblhjK1JtSS9wLzRoTDIwVGhmTXR6WFJNYkpUTXZLZzJoQ0N0TEJXNEptZ0pSOUtSdStzQWM3QjVNOWFFMGVHQ1dUT1VRSUUweEpiZC9ZL2cvS29iNDhBRXdQOGFwbWR5NmRWU0FHU2psVzRZY2FEU2Zud3J1ZHhucVNmSUZiajNTUnIzM0lKVlFIaW1rL0oyOGNFeDdyekcySXg=
+=======
+    vuforiaLicenseKey: AXNzz9P/////AAABmf869N9zJk/vhTeuqU2TI8ggMiOWGeSh6PsNO3PU5+Bfmhp8dUhhn5004iQPIeDa3eRxG2/EKStVpLJyTV0h2llQxx7gbNSuSiSaC9cjOWT0FEekJXTmVH/xQOZMByBn6YNDKeS237xC8mbr1OzFD3hvW1m184F4MOhXFiig6J6b5xmIDDU/jVa6MBEJvNXT/yKvlVa7Kzl4DyU4C8b4ShBpOA8dpvDmZWiqdOz028PGfbvUS9ZQPShK/fI3WNGG2CsigG2fYMBIK3NIQPzY+mGfdy18WPY1h/E29kJkEpy0pCwf/TJoCMeOMv2m1jpLYvpwannSMJnnHSiJSFNb4znWxN8mMPadU69sfyEIs3UN
+    ufoLicenseKey: QVRsb3gvbi8vLy8vQUFBQUtBVURDVnhlREVOMXBoUVQrN3Q3d3ljZGwrc1pEcTN4aVJ2bmpYejlHTytEUHpYUDdRcm54REhwRDdQRWhuc0xERXoyeG5xWTdHUDB6MERHZzZ4b3JtM2Y5aGRpbU01ZndBekRZZ2lGNFk5ZFoycjFaczJOZXJodU5JaXMrdnFhUGh2b2pmVE9rOHVCRGxPbUJTNEpLV1Mya2FTZkVTQlFlbkJZYngyNkxnaitGTjFIcXpDQmIwU1NFSS9IV3oxUVZRbWEyejhabUQ3Tlo3RW1KL25uYUpRUzdrQnhVZ25kNnR3SEdzWVBzK3pEU2Roa3hBcnoxZTVVZ1drZXEvYzl4eS9ZUk5YZEUveFdKclN5T1hZZzBLRXNSbEJ5OHVib0hRbWM4d2NhTDRwMGo1K3RqSm1qRUVuVFBya2plOGRjWmdjVTJrN002R1U5WFBYUnVhbzBRUzd3YXhBZDErdWFySExmaXV6anNmbUM=
+>>>>>>> ebd0340de58169beacf416af95da52033acb4917
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
     maxSimultaneousObjectTargets: 1
     useDelayedLoadingObjectTargets: 0
     version: 8.1.11
+<<<<<<< HEAD
     eulaAcceptedVersions: '{"Values":["8.1"]}'
+=======
+    eulaAcceptedVersions: '{"Values":["0.0","8.0","8.1"]}'
+>>>>>>> ebd0340de58169beacf416af95da52033acb4917
   digitalEyewear:
     cameraOffset: 0.06
     distortionRenderingLayer: 31
