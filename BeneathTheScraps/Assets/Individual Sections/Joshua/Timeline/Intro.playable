@@ -1524,7 +1524,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: Intro VC 5
+    m_DisplayName: Intro VC 5 ALT
   - m_Version: 1
     m_Start: 42.91666793823242
     m_ClipIn: 0
