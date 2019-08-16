@@ -5,7 +5,7 @@ ModelImporter:
   internalIDToNameTable:
   - first:
       74: 1827226128182048838
-    second: Take 001
+    second: SecondCharAnimV6
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -35,11 +35,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Take 001
+      name: SecondCharAnimV6
       takeName: Take 001
       internalID: 1827226128182048838
       firstFrame: 0
-      lastFrame: 1589
+      lastFrame: 1588.333
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
