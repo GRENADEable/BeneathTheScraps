@@ -8,7 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Individual Sections/Rayyan/Scenes_Rayyan/INTRO.unity
     guid: df69894dbb15e6c488be7fef1252f2c4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Individual Sections/Rayyan/Scenes_Rayyan/OUTRO.unity
     guid: d8e2037f218c071468b375d38246ea56
+  - enabled: 1
+    path: Assets/Individual Sections/Rayyan/Scenes_Rayyan/AR_FINAL.unity
+    guid: c5a7d0369b763554986274b4c2537940
   m_configObjects: {}
