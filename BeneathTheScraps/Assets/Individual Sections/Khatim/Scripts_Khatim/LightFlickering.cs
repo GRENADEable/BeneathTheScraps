@@ -5,7 +5,7 @@ using UnityEngine;
 public class LightFlickering : MonoBehaviour
 {
     [Tooltip("External light to flicker; you can leave this null if you attach script to a light")]
-    public new Light light;
+    public Light lightComponent;
     [Tooltip("Minimum random light intensity")]
     public float minIntensity = 0f;
     [Tooltip("Maximum random light intensity")]
@@ -27,15 +27,15 @@ public class LightFlickering : MonoBehaviour
     {
         smoothQueue = new Queue<float>(smoothing);
         // External or internal light?
-        if (light == null)
+        if (lightComponent == null)
         {
-            light = GetComponent<Light>();
+            lightComponent = GetComponent<Light>();
         }
     }
 
     void Update()
     {
-        if (light == null)
+        if (lightComponent == null)
             return;
 
         // pop off an item if too big
@@ -50,6 +50,6 @@ public class LightFlickering : MonoBehaviour
         lastSum += newVal;
 
         // Calculate new smoothed average
-        light.intensity = lastSum / (float)smoothQueue.Count;
+        lightComponent.intensity = lastSum / (float)smoothQueue.Count;
     }
 }
