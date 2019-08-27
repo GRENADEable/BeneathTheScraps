@@ -8559,13 +8559,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 800440736}
-  m_LocalRotation: {x: 0.088620126, y: -0.9778109, z: -0.13299455, w: -0.13544321}
+  m_LocalRotation: {x: 0.054932818, y: -0.9187142, z: -0.15007815, w: -0.3611415}
   m_LocalPosition: {x: 0.74099493, y: -0.00016508065, z: -0.116999514}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6795314}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -16.505001, y: -194.577, z: -8.232}
+  m_LocalEulerAnglesHint: {x: -18.387001, y: -222.99199, z: 0.45100003}
 --- !u!108 &800440738
 Light:
   m_ObjectHideFlags: 0
@@ -8616,7 +8616,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -27214,6 +27214,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: 1f5a130f45c27d94fb53ff4969c8d03a,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ed9fd3998d60b9b409932ce53c594d8f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f5a130f45c27d94fb53ff4969c8d03a, type: 3}
 --- !u!4 &2042327620 stripped
