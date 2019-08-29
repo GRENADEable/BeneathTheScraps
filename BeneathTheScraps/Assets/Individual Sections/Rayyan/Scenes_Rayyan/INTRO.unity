@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.264
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0031846636, g: 0.0025619913, b: 0.0019187569, a: 0.264}
+  m_IndirectSpecularColor: {r: 0.0021790173, g: 0.0018223188, b: 0.0015312576, a: 0.264}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -64,7 +64,8 @@ LightmapSettings:
     m_CompAOExponentDirect: 0
     m_ExtractAmbientOcclusion: 0
     m_Padding: 2
-    m_LightmapParameters: {fileID: 0}
+    m_LightmapParameters: {fileID: 15200, guid: 0000000000000000f000000000000000,
+      type: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
     m_FinalGather: 0
@@ -72,7 +73,7 @@ LightmapSettings:
     m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 1
-    m_BakeBackend: 2
+    m_BakeBackend: 1
     m_PVRSampling: 1
     m_PVRDirectSampleCount: 32
     m_PVRSampleCount: 256
@@ -10438,7 +10439,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0c65750098c49e4099580a71b5801ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  light: {fileID: 0}
+  lightComponent: {fileID: 0}
   minIntensity: 0
   maxIntensity: 26.73
   smoothing: 5
@@ -16547,7 +16548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0c65750098c49e4099580a71b5801ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  light: {fileID: 0}
+  lightComponent: {fileID: 0}
   minIntensity: 0
   maxIntensity: 26.73
   smoothing: 5
@@ -29049,7 +29050,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0c65750098c49e4099580a71b5801ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  light: {fileID: 0}
+  lightComponent: {fileID: 0}
   minIntensity: 0
   maxIntensity: 52.99
   smoothing: 13
