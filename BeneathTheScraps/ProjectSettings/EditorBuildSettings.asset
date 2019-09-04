@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Individual Sections/Rayyan/Scenes_Rayyan/INTRO.unity
     guid: df69894dbb15e6c488be7fef1252f2c4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Individual Sections/Rayyan/Scenes_Rayyan/MENU.unity
     guid: 5282305d7ead9b24780e82807bc2396f
   - enabled: 0
