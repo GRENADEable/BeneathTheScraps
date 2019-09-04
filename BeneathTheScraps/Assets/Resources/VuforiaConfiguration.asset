@@ -28,8 +28,8 @@ MonoBehaviour:
     eyewearType: 0
     stereoFramework: 0
     seeThroughConfiguration: 0
-    viewerName: 
-    viewerManufacturer: 
+    viewerName: Generic Cardboard
+    viewerManufacturer: Vuforia
     useCustomViewer: 0
     customViewer:
       Version: 0
@@ -53,13 +53,13 @@ MonoBehaviour:
     matteShader: {fileID: 4800000, guid: 66d0d78a3000021448b598bb54a3bfdf, type: 3}
     videoBackgroundEnabled: 1
   deviceTracker:
-    autoInitTracker: 0
-    autoStartTracker: 0
+    autoInitTracker: 1
+    autoStartTracker: 1
     trackingMode: 1
-    posePrediction: 0
-    modelCorrectionMode: 0
+    posePrediction: 1
+    modelCorrectionMode: 2
     modelTransformEnabled: 0
-    modelTransform: {x: 0, y: 0.1, z: -0.1}
+    modelTransform: {x: 0, y: 0, z: 0.264}
   smartTerrain:
     autoInitTracker: 0
     autoStartTracker: 0
