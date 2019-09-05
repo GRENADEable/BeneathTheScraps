@@ -11,6 +11,12 @@ public class SceneManage : MonoBehaviour
         Debug.Log("Scene Started");
     }
 
+    public void OpenURL()
+    {
+        Application.OpenURL("https://drive.google.com/file/d/1YfjO9Oq4D7WU5M4Tog9bk96t1IqjMEfM/view");
+        Debug.Log("URL Opened");
+    }
+
     public void Exit()
     {
         Application.Quit();
