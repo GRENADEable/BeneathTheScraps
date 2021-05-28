@@ -8,7 +8,9 @@ public class GameManagerAR : MonoBehaviour
 {
     #region Public Variables
     public Animator fadeBG;
-    public GameObject uiCam;
+    //public GameObject uiCam;
+    public GameObject mainCam;
+    public GameObject[] fpsCam;
     public PlayableDirector introTimeline;
     public GameObject loadingText;
     #endregion
@@ -21,7 +23,13 @@ public class GameManagerAR : MonoBehaviour
     public void ARIntroFinished() => StartCoroutine(ARIntroFinishedDelay());
 
     #region Buttons
+    public void OnClick_SwitchCam()
+    {
+        mainCam.SetActive(!mainCam.activeSelf);
 
+        for (int i = 0; i < fpsCam.Length; i++)
+            fpsCam[i].SetActive(!fpsCam[i].activeSelf);
+    }
     #endregion
 
     #endregion
@@ -31,7 +39,8 @@ public class GameManagerAR : MonoBehaviour
     {
         fadeBG.Play("FadeIn");
         yield return new WaitForSeconds(0.1f);
-        uiCam.SetActive(false);
+        //uiCam.SetActive(false);
+        //mainCam.SetActive(true);
         introTimeline.Play();
     }
 
