@@ -18,7 +18,11 @@ public class GameManagerMenu : MonoBehaviour
     #endregion
 
     #region Unity Callbacks
-    void Start() => fadeBG.Play("FadeIn");
+    void Start()
+    {
+        Application.targetFrameRate = 120;
+        fadeBG.Play("FadeIn");
+    }
 
     void Update()
     {
