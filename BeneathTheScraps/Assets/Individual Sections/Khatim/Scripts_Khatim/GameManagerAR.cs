@@ -19,6 +19,11 @@ public class GameManagerAR : MonoBehaviour
 
     #region My Functions
     public void ARIntroFinished() => StartCoroutine(ARIntroFinishedDelay());
+
+    #region Buttons
+
+    #endregion
+
     #endregion
 
     #region Coroutines
