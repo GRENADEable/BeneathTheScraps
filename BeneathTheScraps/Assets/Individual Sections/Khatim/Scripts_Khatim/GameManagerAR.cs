@@ -7,7 +7,6 @@ using UnityEngine.SceneManagement;
 public class GameManagerAR : MonoBehaviour
 {
     #region Public Variables
-    //public GameObject uiCam;
     public GameObject mainCam;
     public GameObject[] fpsCam;
     public PlayableDirector introTimeline;
@@ -46,8 +45,6 @@ public class GameManagerAR : MonoBehaviour
     {
         fadeBG.Play("FadeIn");
         yield return new WaitForSeconds(0.1f);
-        //uiCam.SetActive(false);
-        //mainCam.SetActive(true);
         introTimeline.Play();
     }
 
