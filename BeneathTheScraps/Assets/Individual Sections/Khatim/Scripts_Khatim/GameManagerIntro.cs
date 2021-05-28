@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Playables;
 using UnityEngine.SceneManagement;
 
@@ -10,6 +11,7 @@ public class GameManagerIntro : MonoBehaviour
     public Animator fadeBG;
     public PlayableDirector introTimeline;
     public GameObject loadingText;
+    public Button uIButtons;
     #endregion
 
     #region Unity Callbacks
@@ -18,6 +20,10 @@ public class GameManagerIntro : MonoBehaviour
 
     #region My Functions
     public void IntroFinished() => StartCoroutine(IntroFinishedDelay());
+
+    public void OnClick_Exit() => StartCoroutine(ExitDelay());
+
+    void DisableButtons() => uIButtons.interactable = false;
     #endregion
 
     #region Coroutines
@@ -30,10 +36,20 @@ public class GameManagerIntro : MonoBehaviour
 
     IEnumerator IntroFinishedDelay()
     {
+        DisableButtons();
         fadeBG.Play("FadeOut");
         yield return new WaitForSeconds(1f);
         loadingText.SetActive(true);
         SceneManager.LoadScene("AR_FINAL");
+    }
+
+    IEnumerator ExitDelay()
+    {
+        DisableButtons();
+        fadeBG.Play("FadeOut");
+        yield return new WaitForSeconds(1f);
+        loadingText.SetActive(true);
+        SceneManager.LoadScene("MENU_V2");
     }
     #endregion
 }

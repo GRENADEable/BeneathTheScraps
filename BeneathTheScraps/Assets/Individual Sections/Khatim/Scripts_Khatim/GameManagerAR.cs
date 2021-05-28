@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Playables;
 using UnityEngine.SceneManagement;
 
@@ -13,6 +14,7 @@ public class GameManagerAR : MonoBehaviour
     public GameObject loadingText;
     public Animator fadeBG;
     public Animator[] beltAnim;
+    public Button[] uIButtons;
     #endregion
 
     #region Unity Callbacks
@@ -36,6 +38,14 @@ public class GameManagerAR : MonoBehaviour
         for (int i = 0; i < fpsCam.Length; i++)
             fpsCam[i].SetActive(!fpsCam[i].activeSelf);
     }
+
+    public void OnClick_Exit() => StartCoroutine(ExitDelay());
+
+    void DisableButtons()
+    {
+        for (int i = 0; i < uIButtons.Length; i++)
+            uIButtons[i].interactable = false;
+    }
     #endregion
 
     #endregion
@@ -50,10 +60,20 @@ public class GameManagerAR : MonoBehaviour
 
     IEnumerator ARIntroFinishedDelay()
     {
+        DisableButtons();
         fadeBG.Play("FadeOut");
         yield return new WaitForSeconds(1f);
         loadingText.SetActive(true);
         SceneManager.LoadScene("OUTRO");
+    }
+
+    IEnumerator ExitDelay()
+    {
+        DisableButtons();
+        fadeBG.Play("FadeOut");
+        yield return new WaitForSeconds(1f);
+        loadingText.SetActive(true);
+        SceneManager.LoadScene("MENU_V2");
     }
     #endregion
 }
