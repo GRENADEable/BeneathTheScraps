@@ -7,12 +7,13 @@ using UnityEngine.SceneManagement;
 public class GameManagerAR : MonoBehaviour
 {
     #region Public Variables
-    public Animator fadeBG;
     //public GameObject uiCam;
     public GameObject mainCam;
     public GameObject[] fpsCam;
     public PlayableDirector introTimeline;
     public GameObject loadingText;
+    public Animator fadeBG;
+    public Animator[] beltAnim;
     #endregion
 
     #region Unity Callbacks
@@ -21,6 +22,12 @@ public class GameManagerAR : MonoBehaviour
 
     #region My Functions
     public void ARIntroFinished() => StartCoroutine(ARIntroFinishedDelay());
+
+    public void LeverPressed()
+    {
+        for (int i = 0; i < beltAnim.Length; i++)
+            beltAnim[i].Play("BeltAnim");
+    }
 
     #region Buttons
     public void OnClick_SwitchCam()
