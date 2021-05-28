@@ -8800,7 +8800,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: 0, y: -0.6910224, z: 0, w: 0.5415926}
+  m_LocalRotation: {x: 0, y: -0.8392944, z: 0, w: 0.5436773}
   m_LocalPosition: {x: 21.31, y: -0.5, z: 8.26}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -12680,7 +12680,7 @@ GameObject:
   - component: {fileID: 748492473}
   - component: {fileID: 748492475}
   m_Layer: 0
-  m_Name: Timeline
+  m_Name: Intro_Timeline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12831,7 +12831,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Events:
     m_Signals:
-    - {fileID: 11400000, guid: f4595a58797377144922c0c1f98d56a1, type: 2}
+    - {fileID: 11400000, guid: c5e24185f255d3943bf9e66dab9f5fbf, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
