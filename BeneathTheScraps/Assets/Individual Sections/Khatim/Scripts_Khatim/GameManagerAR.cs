@@ -63,8 +63,8 @@ public class GameManagerAR : MonoBehaviour
         DisableButtons();
         fadeBG.Play("FadeOut");
         yield return new WaitForSeconds(1f);
-        loadingText.SetActive(true);
-        SceneManager.LoadScene("OUTRO");
+        //loadingText.SetActive(true);
+        //SceneManager.LoadScene("OUTRO");
     }
 
     IEnumerator ExitDelay()

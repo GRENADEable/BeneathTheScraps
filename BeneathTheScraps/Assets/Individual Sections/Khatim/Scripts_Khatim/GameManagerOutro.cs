@@ -36,8 +36,8 @@ public class GameManagerOutro : MonoBehaviour
         DisableButtons();
         fadeBG.Play("FadeOut");
         yield return new WaitForSeconds(1f);
-        loadingText.SetActive(true);
-        SceneManager.LoadScene("MENU_V2");
+        //loadingText.SetActive(true);
+        //SceneManager.LoadScene("MENU_V2");
     }
 
     IEnumerator ExitDelay()

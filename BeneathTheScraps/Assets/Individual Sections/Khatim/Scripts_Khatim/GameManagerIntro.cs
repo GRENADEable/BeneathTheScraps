@@ -39,8 +39,8 @@ public class GameManagerIntro : MonoBehaviour
         DisableButtons();
         fadeBG.Play("FadeOut");
         yield return new WaitForSeconds(1f);
-        loadingText.SetActive(true);
-        SceneManager.LoadScene("AR_FINAL");
+        //loadingText.SetActive(true);
+        //SceneManager.LoadScene("AR_FINAL");
     }
 
     IEnumerator ExitDelay()
